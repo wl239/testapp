@@ -1,5 +1,6 @@
 from dash import *
 from testapp import *
+import dash_html_components as html
 
 app = Dash(__name__)
 app.layout = html.Div([
@@ -9,9 +10,3 @@ app.layout = html.Div([
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-
-
-
-
-

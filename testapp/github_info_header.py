@@ -1,7 +1,8 @@
 from git import Repo
 from datetime import datetime
 from os import getcwd
-from dash import html
+import dash_html_components as html
+
 
 def github_info_header():
     repo = Repo(search_parent_directories=True)
