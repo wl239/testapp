@@ -13,5 +13,3 @@ can_cd_to_data_path = os.system("cd " + app_data_path)
 if can_cd_to_data_path != 0:
     raise Exception("Cannot cd to " + app_data_path +
                     ". Please create the directory or double-check your TESTAPP_DATA_PATH entry.")
-
-
